@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(37, 37, 91);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(69, 69, 161, 0.643),rgba(45, 39, 39, 0.598)),
+    url('/images/cinema.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: #c0c9ef;
+    background-color: rgba(79, 75, 75, 0.543);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.container p {
+    color:aliceblue;
+    font-size: 1rem;
+}
